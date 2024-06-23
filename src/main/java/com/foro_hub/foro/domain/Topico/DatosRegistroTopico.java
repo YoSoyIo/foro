@@ -1,7 +1,6 @@
-package com.foro_hub.foro.Topico;
+package com.foro_hub.foro.domain.Topico;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
-import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 
