@@ -14,13 +14,15 @@ Asegúrate de tener instalado lo siguiente en tu entorno de desarrollo:
 
 ```bash
 git clone https://github.com/YoSoyIo/foro.git
-cd foro```
-
-#Configurar la Base de Datos
+cd foro 
+```
+# Configurar la Base de Datos
 Crea una base de datos en MySQL (o tu gestor de base de datos preferido) y ajusta los parámetros de conexión en el archivo src/main/resources/application.properties.
 
-```spring.datasource.url=jdbc:mysql://localhost:3306/tu_base_de_datos
+```bash
+spring.datasource.url=jdbc:mysql://localhost:3306/tu_base_de_datos
 spring.datasource.username=tu_usuario
 spring.datasource.password=tu_contraseña
 spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true```
+spring.jpa.show-sql=true
+```
