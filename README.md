@@ -14,7 +14,7 @@ Asegúrate de tener instalado lo siguiente en tu entorno de desarrollo:
 
 ```bash
 git clone https://github.com/YoSoyIo/foro.git
-cd foro
+cd foro```
 
 #Configurar la Base de Datos
 Crea una base de datos en MySQL (o tu gestor de base de datos preferido) y ajusta los parámetros de conexión en el archivo src/main/resources/application.properties.
